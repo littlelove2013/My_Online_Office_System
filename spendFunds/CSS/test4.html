@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head><meta http-equiv="Content-Type" content="text/html; charset=gbk" />
+<title>纯css二级下拉（弹出）菜单</title>
+<style type="text/css">
+*{ margin:0; padding:0;}
+.menu { display:block; font-family: arial, sans-serif; width:940px; position:relative; height:auto; background: #06F;}
+.menu ul { padding:0; margin:0; list-style-type: none;}
+.menu ul li { float:left; width:102px; background: #03F;}
+.menu ul li.end { height:35px; float:right; width:10px; background: #03F;}
+.menu ul li a,
+.menu ul li a:visited {display:block; text-align:center; text-decoration:none; width:104px; height:35px; color:#fff; line-height:34px; font-size:14px;background: #03F;}
+.menu ul li.first a,
+.menu ul li.first a:visited {display:block; text-align:center; text-decoration:none; width:110px; height:35px; color:#fff; line-height:34px; font-size:14px;background: #03F;}
+.menu ul li ul {display: none;}
+.menu ul li:hover a {color:#000;  background:  #03F; }
+.menu ul li:hover.first a {color:#000;  background:  #03F; }
+.menu ul li:hover ul {display:block; position:absolute;left:0;top:35px; width:805px;}
+.menu ul li:hover ul li a { float:left;display:block; background:#faeec7; color:#000;}
+.menu ul li:hover ul li a:hover {background:#dfc184; color:#000;}
+</style>
+</head>
+<body>
+<div class="menu">
+<ul>
+<li class="first"><a href="http://www.veryhuo.com">首页</a></li>
+<li><a class="hide" href="http://www.liehuo.net">关于我们</a>
+<ul>
+<li><a href="#">菜单内容111</a></li>
+<li><a href="#">菜单内容111</a></li>
+<li><a href="#">菜单内容111</a></li>
+<li><a href="#">菜单内容111</a></li>
+<li><a href="#">菜单内容111</a></li>
+</ul>
+</li>
+<li><a class="hide" href="#">产品展示</a>
+<ul   class="right_side">
+<li><a href="#">菜单内容222</a></li>
+<li><a href="#">菜单内容222</a></li>
+<li><a href="#">菜单内容222</a></li>
+</ul>
+</li>
+<li><a class="hide" href="#">联系你们</a>
+<ul>
+<li><a href="#">菜单内容333</a></li>
+<li><a href="#">菜单内容333</a></li>
+<li><a href="#">菜单内容333</a></li>
+<li><a href="#">菜单内容333</a></li>
+<li><a href="#">菜单内容333</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</body>
+</html> <div style="text-align:center;margin:30px 0 0 0;"><hr style="color:#999;height:1px;">如不能显示效果，请按Ctrl+F5刷新本页，更多网页代码：<a href='http://www.veryhuo.com/' target='_blank'>http://www.veryhuo.com/</a></div>

@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+
+iframe{
+	float:right;
+}
+div.leftMenu{
+	float:left;
+	width:20%;
+	padding:3px;
+}
+div.leftMenu ul{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+a:link,a:visited
+{
+display:block;
+font-weight:bold;
+color:#FFFFFF;
+background-color:#bebebe;
+width:120px;
+text-align:center;
+padding:4px;
+text-decoration:none;
+text-transform:uppercase;
+}
+a:hover,a:active
+{
+background-color:#cc0000;
+}
+

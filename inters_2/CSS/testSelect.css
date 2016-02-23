@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*test select*/
+div.ul{
+	width:150px;
+	text-align:center;
+}
+
+ul{
+	width:100%;
+}
+li{
+	color:#333;
+	font-size:24px;
+	list-style:none;
+	/*
+	border:dotted #FFFFFF thin;
+	border-left:none;
+	border-right:none;
+	*/
+}
+li.secondary_menu{
+	border:dotted #FFFFFF thin;
+	border-left:none;
+	border-right:none;
+	border-bottom:none;
+	
+	color:#000000;
+}
+ul.type li ul {
+	display:none;
+}
+ul.type li:hover ul {
+	display:block;  
+	width:80%;  
+    /*position: absolute; left: 0px; top: 21px;*/
+	position:relative;
+	left:-1em;
+	top:0px;
+	
+}

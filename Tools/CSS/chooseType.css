@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+a:link#choose{
+	display:inline-block;
+	/*background-color:#0C0;*/
+	width:33%;
+	background-color:#A7C942;
+	
+	color:#000000;
+	font-weight:600;
+	
+	text-align:center;
+	text-decoration:none;
+	font-family:"Comic Sans MS", cursive;
+	text-transform:uppercase;
+	/*
+	border:#000000 solid thin;
+	outline-color:#666666;
+	outline-style:double;
+	outline-width:3px;
+	*/
+}
+a:visited#choose{
+	background-color:#0C0;
+	color:#030;
+	/*
+	border:#000000 solid thin;
+	outline-color:#666666;
+	outline-style:double;
+	outline-width:3px;
+	*/
+}
+a:hover#choose{
+	background-color:#FC9;
+	color:#030;
+}
+a:active#choose{
+	background-color:#333;
+	color:#CCCCCC;
+}

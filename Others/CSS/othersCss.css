@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*others CSS*/
+div.othermenu{
+	float:left;
+	width:100%;
+	height:20px;
+	margin-top:50px;
+	padding:20px;
+	
+	border:thin dashed #000000;
+}
+div.myframe{
+	float:right;
+	width:80%;
+	margin-top:50px;
+	padding:10px;	
+}
+
+@charset "utf-8";
+/* CSS Document */
+
+
+ul{
+	width:100%;
+	font-size:1.1em;
+ 	text-align:left;
+	
+  /*
+  padding-top:5px;
+  padding-bottom:4px;
+  */
+  padding:0px 0px 0px 0px;
+  background-color:#A7C942;
+  color:#ffffff;
+}
+li.first_menu{
+	list-style:none;
+	display:inline;
+	/*
+	border:dotted #FFFFFF thin;
+	border-left:none;
+	border-right:none;
+	*/
+}
+li.secondary_menu{
+	border:dotted #FFFFFF thin;
+	border-left:none;
+	border-right:none;
+	border-bottom:none;
+	text-align:left;
+	font-size:0.5em;
+	color:#000000;
+}
+ul.type li ul {
+	display:none;
+}
+ul.type li:hover ul {
+	display:block;  
+	width:80%;  
+    /*position: absolute; left: 0px; top: 21px;*/
+	position:relative;
+	left:0px;
+	top:0px;
+	
+}

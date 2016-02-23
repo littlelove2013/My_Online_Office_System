@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+
+body.loading{
+	background-color:#FFF;
+}
+div.loading{
+	text-align:center;
+	margin:50px;
+	padding:10px;
+}
+p{
+	font-family:"Comic Sans MS", cursive;
+	font-weight:700;
+	animation:running;
+	font-style:italic;
+	font-size:24px;
+}
